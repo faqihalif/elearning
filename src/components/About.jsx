@@ -15,7 +15,7 @@ function About() {
                         <p className="mt-6 text-lg leading-loose text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illo debitis dolor nemo nisi exercitationem, corporis natus, magni enim necessitatibus voluptatem ex voluptatum repudiandae quibusdam, officia dignissimos nihil temporibus vero?</p>
                     </div>
                     <div>
-                        <img src={ImageVisual} alt="Image Visual" className="w-full h-full" />
+                        <img src={ImageVisual} alt="" className="w-full h-full" />
                     </div>
                 </div>
             </div>

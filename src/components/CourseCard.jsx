@@ -7,7 +7,7 @@ function CourseCard() {
     return (
         <a href="#" className="w-full overflow-hidden bg-white shadow-lg rounded-xl">
             <div className="relative w-full h-60">
-                <img src={CourseImage} alt="New Employee Orientation Program" className="absolute object-cover w-full h-full" />
+                <img src={CourseImage} alt="" className="absolute object-cover w-full h-full" />
             </div>
 
             <div className="p-2">

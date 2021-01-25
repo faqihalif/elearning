@@ -31,7 +31,7 @@ function Feedback() {
         <div className="container px-8 py-24 mx-auto">
             <div className="grid items-center grid-cols-2 space-x-8">
                 <div>
-                    <img src={ImageFeedback} alt="Feedback" className="w-full h-full" />
+                    <img src={ImageFeedback} alt="" className="w-full h-full" />
                 </div>
                 <div className="pl-32">
                     <div>
@@ -43,7 +43,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Men} alt="Men" className="w-auto h-24" />
+                                        <img src={Men} alt="" className="w-auto h-24" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Faqih Alif Fauzi</p>
@@ -57,7 +57,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Woman} alt="Men" className="w-auto h-24" />
+                                        <img src={Woman} alt="" className="w-auto h-24" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Fahrizki Cecaria Oktavani</p>
@@ -71,7 +71,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Woman} alt="Men" className="w-auto h-24" />
+                                        <img src={Woman} alt="" className="w-auto h-24" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Danny Kurniawan</p>
