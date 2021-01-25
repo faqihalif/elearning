@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e094afc.chunk.css",
+    "main.js": "/static/js/main.bf07987f.chunk.js",
+    "main.js.map": "/static/js/main.bf07987f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5c7b653.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5c7b653.js.map",
+    "static/css/2.bbbe21ee.chunk.css": "/static/css/2.bbbe21ee.chunk.css",
+    "static/js/2.9ecd7eec.chunk.js": "/static/js/2.9ecd7eec.chunk.js",
+    "static/js/2.9ecd7eec.chunk.js.map": "/static/js/2.9ecd7eec.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.bbbe21ee.chunk.css.map": "/static/css/2.bbbe21ee.chunk.css.map",
+    "static/css/main.0e094afc.chunk.css.map": "/static/css/main.0e094afc.chunk.css.map",
+    "static/js/2.9ecd7eec.chunk.js.LICENSE.txt": "/static/js/2.9ecd7eec.chunk.js.LICENSE.txt",
+    "static/media/elearning-visual.68a4eaf7.png": "/static/media/elearning-visual.68a4eaf7.png",
+    "static/media/feedback.f424568c.png": "/static/media/feedback.f424568c.png",
+    "static/media/jec.795042a1.png": "/static/media/jec.795042a1.png",
+    "static/media/service-excellence.a1f70a10.jpg": "/static/media/service-excellence.a1f70a10.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/woman.9a8e6f37.png": "/static/media/woman.9a8e6f37.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5c7b653.js",
+    "static/css/2.bbbe21ee.chunk.css",
+    "static/js/2.9ecd7eec.chunk.js",
+    "static/css/main.0e094afc.chunk.css",
+    "static/js/main.bf07987f.chunk.js"
+  ]
+}
