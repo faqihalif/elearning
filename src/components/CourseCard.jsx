@@ -5,7 +5,7 @@ import StarRating from './StarRating'
 
 function CourseCard() {
     return (
-        <a href="javascript:void(0);" className="w-full overflow-hidden bg-white shadow-lg rounded-xl">
+        <a href="https://elearning.jec.co.id/" className="w-full overflow-hidden bg-white shadow-lg rounded-xl">
             <div className="relative w-full h-60">
                 <img src={CourseImage} alt="" className="absolute object-cover w-full h-full" />
             </div>
