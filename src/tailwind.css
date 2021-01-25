@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:focus {
+    outline: none;
+}
+
+/* Slick Slider */
+.slick-dots {
+    bottom: -56px !important;
+}
+
+.slick-slide *:focus{
+    outline: none;
+}
+
+.slick-dots li button:before {
+    font-size: 20px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #3b82f6 !important;
+}
