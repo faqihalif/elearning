@@ -5,7 +5,7 @@ import ImageVisual from '../images/elearning-visual.png'
 function About() {
     return (
         <div className="bg-blue-50">
-            <div className="container px-8 py-24 mx-auto">
+            <div className="container px-4 py-24 mx-auto md:px-8">
                 <div className="grid items-center grid-cols-2 space-x-8">
                     <div className="pr-32">
                         <div>

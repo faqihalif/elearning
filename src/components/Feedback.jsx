@@ -28,7 +28,7 @@ function Feedback() {
     }
 
     return (
-        <div className="container px-8 py-24 mx-auto">
+        <div className="container px-4 py-24 mx-auto md:px-8">
             <div className="grid items-center grid-cols-2 space-x-8">
                 <div>
                     <img src={ImageFeedback} alt="" className="w-full h-full" />
