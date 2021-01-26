@@ -9,7 +9,7 @@ function Header() {
                     <img src={logo} alt="" className="w-auto h-12" />
                 </div>
                 <div>
-                    <a href="https://elearning.jec.co.id/" className="inline-flex px-4 py-2 font-bold text-white bg-blue-500 rounded-lg shadow-md">LOGIN</a>
+                    <a href="https://elearning.jec.co.id/" className="inline-flex px-4 py-2 font-bold text-white bg-blue-500 rounded-lg">LOGIN</a>
                 </div>
             </div>
         </div>

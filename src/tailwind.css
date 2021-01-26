@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a:focus {
+    outline: none;
+}
+
 button:focus {
     outline: none;
 }
