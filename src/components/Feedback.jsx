@@ -51,7 +51,7 @@ function Feedback() {
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold leading-loose text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
+                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
                                 </div>
                             </div>
                             <div>
@@ -65,7 +65,7 @@ function Feedback() {
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold leading-loose text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
+                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
                                 </div>
                             </div>
                             <div>
@@ -79,7 +79,7 @@ function Feedback() {
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold leading-loose text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
+                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
                                 </div>
                             </div>
                         </Slider>
