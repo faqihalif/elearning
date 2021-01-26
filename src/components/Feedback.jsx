@@ -10,7 +10,7 @@ import Woman from '../images/woman.png'
 function Feedback() {
     const settingSlider = {
         dots: false,
-        arrow: false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -28,14 +28,14 @@ function Feedback() {
     }
 
     return (
-        <div className="container px-4 py-24 mx-auto md:px-8">
-            <div className="grid items-center grid-cols-2 space-x-8">
-                <div>
-                    <img src={ImageFeedback} alt="" className="w-full h-full" />
+        <div className="container px-4 py-12 mx-auto lg:py-24 md:px-8">
+            <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
+                <div className="order-last lg:order-first">
+                    <img src={ImageFeedback} alt="Feedback Visual" className="w-full h-full" />
                 </div>
-                <div className="pl-32">
+                <div className="order-first lg:pl-32 lg:order-first">
                     <div>
-                        <p className="mb-6 text-4xl font-extrabold text-gray-800">Students Feedback</p>
+                        <p className="mb-2 text-2xl font-extrabold text-gray-800 lg:mb-6 lg:text-4xl">Students Feedback</p>
                         <div className="w-32 h-2 bg-blue-500 rounded-full"></div>
                     </div>
                     <div className="mt-6">
@@ -43,7 +43,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Men} alt="" className="w-auto h-24" />
+                                        <img src={Men} alt="" className="w-auto h-20" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Faqih Alif Fauzi</p>
@@ -57,7 +57,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Woman} alt="" className="w-auto h-24" />
+                                        <img src={Woman} alt="" className="w-auto h-20" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Fahrizki Cecaria Oktavani</p>
@@ -71,7 +71,7 @@ function Feedback() {
                             <div>
                                 <div className="flex items-center my-8 space-x-4">
                                     <div>
-                                        <img src={Woman} alt="" className="w-auto h-24" />
+                                        <img src={Woman} alt="" className="w-auto h-20" />
                                     </div>
                                     <div>
                                         <p className="text-xl font-bold text-gray-800">Danny Kurniawan</p>

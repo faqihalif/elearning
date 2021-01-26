@@ -6,6 +6,7 @@ import Statistic from './components/Statistic'
 import OurPopularCourse from './components/OurPopularCourse'
 import About from './components/About'
 import Feedback from './components/Feedback'
+import EnrollNow from './components/EnrollNow'
 import Footer from './components/Footer'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <OurPopularCourse />
             <About />
             <Feedback />
+            <EnrollNow />
             <Footer />
         </div>
     )
