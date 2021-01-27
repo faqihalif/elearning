@@ -2,10 +2,9 @@ import React, {useRef} from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import FeedbackCard from './FeedbackCard'
 
 import ImageFeedback from '../images/feedback.png'
-import Men from '../images/men.png'
-import Woman from '../images/woman.png'
 
 function Feedback() {
     const settingSlider = {
@@ -35,53 +34,16 @@ function Feedback() {
                 </div>
                 <div className="order-first lg:pl-32 lg:order-first">
                     <div>
-                        <p className="mb-2 text-2xl font-extrabold text-gray-800 lg:mb-6 lg:text-4xl">Students Feedback</p>
-                        <div className="w-32 h-2 bg-blue-500 rounded-full"></div>
+                        <p className="mb-2 text-2xl font-extrabold text-gray-800 lg:mb-6 lg:text-4xl">User Feedback</p>
+                        <div className="w-32 h-1 bg-blue-500 rounded-full lg:h-2"></div>
                     </div>
                     <div className="mt-6">
                         <Slider {...settingSlider} ref={sliderRef}>
-                            <div>
-                                <div className="flex items-center my-8 space-x-4">
-                                    <div>
-                                        <img src={Men} alt="" className="w-auto h-20" />
-                                    </div>
-                                    <div>
-                                        <p className="text-xl font-bold text-gray-800">Faqih Alif Fauzi</p>
-                                        <p className="font-bold text-gray-500">JEC @ Corporate</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="flex items-center my-8 space-x-4">
-                                    <div>
-                                        <img src={Woman} alt="" className="w-auto h-20" />
-                                    </div>
-                                    <div>
-                                        <p className="text-xl font-bold text-gray-800">Fahrizki Cecaria Oktavani</p>
-                                        <p className="font-bold text-gray-500">JEC @ Corporate</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="flex items-center my-8 space-x-4">
-                                    <div>
-                                        <img src={Woman} alt="" className="w-auto h-20" />
-                                    </div>
-                                    <div>
-                                        <p className="text-xl font-bold text-gray-800">Danny Kurniawan</p>
-                                        <p className="font-bold text-gray-500">JEC @ Corporate</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p className="text-sm font-semibold leading-loose text-gray-500 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sit asperiores ratione eos dolores nulla saepe eum? Aut delectus dicta, perspiciatis, repudiandae sed minima alias, nemo labore commodi nobis voluptatibus.</p>
-                                </div>
-                            </div>
+                            <FeedbackCard />
+                            <FeedbackCard />
+                            <FeedbackCard />
+                            <FeedbackCard />
+                            <FeedbackCard />
                         </Slider>
                     </div>
                     <div className="flex items-center justify-end mt-6 space-x-8">

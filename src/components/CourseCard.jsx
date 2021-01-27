@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CourseImage from '../images/service-excellence.jpg'
+import CourseImage from '../images/courses/service-excellence.jpg'
 import StarRating from './StarRating'
 
 function CourseCard() {

@@ -9,7 +9,7 @@ function OurPopularCourse() {
             <div className="flex items-center justify-between mb-6 lg:mb-10">
                 <div>
                     <p className="mb-2 text-2xl font-extrabold text-gray-800 lg:mb-6 lg:text-4xl">Our Popular Course</p>
-                    <div className="w-32 h-2 bg-blue-500 rounded-full"></div>
+                    <div className="w-32 h-1 bg-blue-500 rounded-full lg:h-2"></div>
                 </div>
                 <div className="hidden lg:block">
                     <a href="https://elearning.jec.co.id/" className="px-6 py-4 text-xl text-blue-500 bg-white border border-blue-500 rounded-xl">ALL COURSES</a>
