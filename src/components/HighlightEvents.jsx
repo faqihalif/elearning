@@ -16,7 +16,7 @@ function HighlightEvents() {
         autoplayspeed: 1000,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1023,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
