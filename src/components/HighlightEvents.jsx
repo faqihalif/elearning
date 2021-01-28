@@ -12,7 +12,7 @@ function HighlightEvents() {
         speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 2,
-        autoplay: false,
+        autoplay: true,
         autoplayspeed: 1000,
         responsive: [
             {
