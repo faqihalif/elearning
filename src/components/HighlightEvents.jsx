@@ -10,8 +10,8 @@ function HighlightEvents() {
         arrows: false,
         infinite: true,
         speed: 1000,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         autoplay: true,
         autoplayspeed: 1000,
         responsive: [

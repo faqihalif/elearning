@@ -14,7 +14,7 @@ function EventCard() {
                 </div>
                 <img src={PhotoEvent} alt="Event 1" className="w-full h-full rounded-lg" onMouseEnter={() => setDetailPhoto(true)} onMouseLeave={() => setDetailPhoto(false)} />
                 <div className={`absolute bottom-0 left-0 w-full px-2 py-1 lg:p-4 rounded-b-lg bg-gradient-to-t from-gray-500`}>
-                    <p className="text-sm font-bold text-white lg:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="mb-1 text-sm font-bold text-white lg:leading-4 lg:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     <p className="text-xs text-white">21 December 2020</p>
                 </div>
             </div>
