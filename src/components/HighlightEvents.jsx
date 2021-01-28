@@ -9,9 +9,11 @@ function HighlightEvents() {
         dots: true,
         arrows: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        speed: 1000,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: false,
+        autoplayspeed: 1000,
         responsive: [
             {
                 breakpoint: 1024,
