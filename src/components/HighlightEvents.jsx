@@ -31,7 +31,7 @@ function HighlightEvents() {
         ]
     }
 
-    const [event, setEvent] = useState(true)
+    const [event, setEvent] = useState(false)
 
     const showEvent = () => {
         setEvent(true)
