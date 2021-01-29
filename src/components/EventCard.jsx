@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 
 import PhotoEvent from '../images/events/event1.jpeg'
 

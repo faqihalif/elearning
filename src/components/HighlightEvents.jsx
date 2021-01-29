@@ -62,9 +62,9 @@ function HighlightEvents() {
             </div>
 
             {/* View Event */}
-            <div className={`${event ? 'fixed' : 'hidden'} fixed inset-0 flex justify-center items-center`}>
-                <div className="absolute w-full h-full bg-black opacity-75"></div>
-                <div className="relative flex flex-col p-4 m-2 space-y-4 bg-white rounded-lg shadow-lg lg:m-40 lg:p-6">
+            <div className={`${event ? 'fixed' : 'hidden'} fixed inset-0 flex justify-center items-center z-10`}>
+                <div className="absolute w-full h-full bg-black opacity-50"></div>
+                <div className="relative flex flex-col p-4 m-2 space-y-4 bg-white rounded-lg shadow-lg lg:m-96 lg:p-6">
                     <div className="flex items-center justify-between">
                         <div>
                             <p className="text-base font-bold text-gray-800 lg:text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
